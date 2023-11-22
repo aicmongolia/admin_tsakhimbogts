@@ -4,7 +4,8 @@
   "info": {
     "singularName": "experience",
     "pluralName": "experiences",
-    "displayName": "Experience"
+    "displayName": "Малчдын туршлага",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,14 +23,15 @@
       "targetField": "title"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "seo": {
       "type": "component",
